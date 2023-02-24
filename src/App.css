@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -111,7 +114,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left; 
+  text-align: left;
 }
 
 .separator {
@@ -128,11 +131,9 @@
   justify-content: space-between;
 }
 
-
 .wrapper-5 {
   display: flex;
   align-items: center;
-  text-justify: center;
   height: 300px;
   width: 90%;
 }
