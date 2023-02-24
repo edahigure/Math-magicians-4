@@ -9,12 +9,12 @@ import Quote from './pages/Quote';
 function App() {
   return (
     <>
-    <Layout />
+      <Layout />
       <Routes>
-          <Route index element={<Home />} />
-          <Route path="Home" element={<Home />} />
-          <Route path="Calculator" element={<Calculator />} />
-          <Route path="Quote" element={<Quote />} />
+        <Route index element={<Home />} />
+        <Route path="Home" element={<Home />} />
+        <Route path="Calculator" element={<Calculator />} />
+        <Route path="Quote" element={<Quote />} />
       </Routes>
     </>
 
